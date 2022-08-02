@@ -40,6 +40,7 @@ const SavedBooks = () => {
     return <h2>LOADING...</h2>;
   }
 
+  // html for component
   return (
     <>
       <Jumbotron fluid className='text-light bg-dark'>
