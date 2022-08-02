@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState} from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 import { useMutation } from '@apollo/client';
 import { LOGIN_USER } from '../utils/mutations';
@@ -45,7 +45,6 @@ const LoginForm = () => {
     });
   };
 
-  s
   return (
     <>
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
